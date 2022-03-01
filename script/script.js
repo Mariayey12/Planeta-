@@ -1,5 +1,5 @@
 let nombrePlanetas = Array('tierra', 'Martes')
-let distancia = [6, 3, '67']
+let distancia = [5, 3, '67']
 const tamaño = [];
 console.log(nombrePlanetas)
 console.log(distancia)
@@ -22,13 +22,13 @@ for (let index = 0; index < nombrePlanetas.length; index++) {
 //const element = object[key];}
 //console.log(nombrePlanetas[key])
 //}
-//ciclo for of 
+//ciclofor of
 //for (const planeta of nombrePlanetas) {
 //console.log(planeta)
 //}
 
-let distancia = [5, 3, '67'];
 //operador de igualdad
+//let distancia = [5, 3, '67'];
 for (const key in distancia) {
     if (distancia[key] == '5') {
         console.log('se encontro la distancia')
